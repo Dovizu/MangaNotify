@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[DNMangaNotifyModel fetchUpdates]:DNMangaNotifyModel.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[library objectForKey: @&quot;manga&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DNMangaNotifyPrefViewController addButtonClicked:]:DNMangaNotifyPrefViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DNAddPopUpController addMangaToModelWithTitle:andURL:]:DNAddPopUpController.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

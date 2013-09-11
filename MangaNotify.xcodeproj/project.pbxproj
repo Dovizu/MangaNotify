@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F116B6C21783FB74008EDD1D /* demo.png in Resources */ = {isa = PBXBuildFile; fileRef = F116B6C11783FB74008EDD1D /* demo.png */; };
+		F14DBCBA173796320068DCA4 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = F14DBCB9173796320068DCA4 /* icon.icns */; };
+		F17480CF1737AF0100D45919 /* menuIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F17480CB1737AF0100D45919 /* menuIcon.png */; };
+		F17480D01737AF0100D45919 /* menuIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F17480CC1737AF0100D45919 /* menuIcon@2x.png */; };
+		F17480D11737AF0100D45919 /* menuIconInvert.png in Resources */ = {isa = PBXBuildFile; fileRef = F17480CD1737AF0100D45919 /* menuIconInvert.png */; };
+		F17480D21737AF0100D45919 /* menuIconInvert@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F17480CE1737AF0100D45919 /* menuIconInvert@2x.png */; };
+		F1DFFAC01733458D00652CFB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DFFABF1733458D00652CFB /* Cocoa.framework */; };
+		F1DFFACA1733458D00652CFB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1DFFAC81733458D00652CFB /* InfoPlist.strings */; };
+		F1DFFACC1733458D00652CFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DFFACB1733458D00652CFB /* main.m */; };
+		F1DFFAD01733458D00652CFB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F1DFFACE1733458D00652CFB /* Credits.rtf */; };
+		F1DFFAD31733458D00652CFB /* DNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DFFAD21733458D00652CFB /* DNAppDelegate.m */; };
+		F1DFFAD61733458D00652CFB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1DFFAD41733458D00652CFB /* MainMenu.xib */; };
+		F1DFFAE1173391A200652CFB /* DNMangaNotifyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DFFAE0173391A100652CFB /* DNMangaNotifyModel.m */; };
+		F1DFFAF2173421FD00652CFB /* DNAddPopUpController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DFFAF1173421FD00652CFB /* DNAddPopUpController.m */; };
+		F1DFFAF71734C70500652CFB /* prefView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1DFFAF61734C70500652CFB /* prefView.xib */; };
+		F1DFFAF91734C76900652CFB /* popUp.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1DFFAF81734C76900652CFB /* popUp.xib */; };
+		F1DFFAFC1734CC0F00652CFB /* DNPreViewWinController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DFFAFB1734CC0F00652CFB /* DNPreViewWinController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F116B6C11783FB74008EDD1D /* demo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = demo.png; path = ../demo.png; sourceTree = "<group>"; };
+		F14DBCB9173796320068DCA4 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		F17480CB1737AF0100D45919 /* menuIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menuIcon.png; path = ../menuIcon.png; sourceTree = "<group>"; };
+		F17480CC1737AF0100D45919 /* menuIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menuIcon@2x.png"; path = "../menuIcon@2x.png"; sourceTree = "<group>"; };
+		F17480CD1737AF0100D45919 /* menuIconInvert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menuIconInvert.png; path = ../menuIconInvert.png; sourceTree = "<group>"; };
+		F17480CE1737AF0100D45919 /* menuIconInvert@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menuIconInvert@2x.png"; path = "../menuIconInvert@2x.png"; sourceTree = "<group>"; };
+		F1DFFABC1733458D00652CFB /* MangaNotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MangaNotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1DFFABF1733458D00652CFB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F1DFFAC21733458D00652CFB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F1DFFAC31733458D00652CFB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F1DFFAC41733458D00652CFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F1DFFAC71733458D00652CFB /* MangaNotify-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MangaNotify-Info.plist"; sourceTree = "<group>"; };
+		F1DFFAC91733458D00652CFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F1DFFACB1733458D00652CFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1DFFACD1733458D00652CFB /* MangaNotify-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MangaNotify-Prefix.pch"; sourceTree = "<group>"; };
+		F1DFFACF1733458D00652CFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F1DFFAD11733458D00652CFB /* DNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DNAppDelegate.h; sourceTree = "<group>"; };
+		F1DFFAD21733458D00652CFB /* DNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DNAppDelegate.m; sourceTree = "<group>"; };
+		F1DFFAD51733458D00652CFB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F1DFFADF173391A100652CFB /* DNMangaNotifyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNMangaNotifyModel.h; sourceTree = "<group>"; };
+		F1DFFAE0173391A100652CFB /* DNMangaNotifyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNMangaNotifyModel.m; sourceTree = "<group>"; };
+		F1DFFAF0173421FD00652CFB /* DNAddPopUpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNAddPopUpController.h; sourceTree = "<group>"; };
+		F1DFFAF1173421FD00652CFB /* DNAddPopUpController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNAddPopUpController.m; sourceTree = "<group>"; };
+		F1DFFAF61734C70500652CFB /* prefView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = prefView.xib; sourceTree = "<group>"; };
+		F1DFFAF81734C76900652CFB /* popUp.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = popUp.xib; sourceTree = "<group>"; };
+		F1DFFAFA1734CC0F00652CFB /* DNPreViewWinController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNPreViewWinController.h; sourceTree = "<group>"; };
+		F1DFFAFB1734CC0F00652CFB /* DNPreViewWinController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNPreViewWinController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1DFFAB91733458D00652CFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1DFFAC01733458D00652CFB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1DFFAB31733458D00652CFB = {
+			isa = PBXGroup;
+			children = (
+				F1DFFAC51733458D00652CFB /* MangaNotify */,
+				F1DFFAC61733458D00652CFB /* Supporting Files */,
+				F1DFFABE1733458D00652CFB /* Frameworks */,
+				F1DFFADC17338C2700652CFB /* Resources */,
+				F1DFFABD1733458D00652CFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1DFFABD1733458D00652CFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1DFFABC1733458D00652CFB /* MangaNotify.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1DFFABE1733458D00652CFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1DFFABF1733458D00652CFB /* Cocoa.framework */,
+				F1DFFAC11733458D00652CFB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1DFFAC11733458D00652CFB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1DFFAC21733458D00652CFB /* AppKit.framework */,
+				F1DFFAC31733458D00652CFB /* CoreData.framework */,
+				F1DFFAC41733458D00652CFB /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F1DFFAC51733458D00652CFB /* MangaNotify */ = {
+			isa = PBXGroup;
+			children = (
+				F1DFFAD41733458D00652CFB /* MainMenu.xib */,
+				F1DFFAD11733458D00652CFB /* DNAppDelegate.h */,
+				F1DFFAD21733458D00652CFB /* DNAppDelegate.m */,
+				F1DFFAF61734C70500652CFB /* prefView.xib */,
+				F1DFFAFA1734CC0F00652CFB /* DNPreViewWinController.h */,
+				F1DFFAFB1734CC0F00652CFB /* DNPreViewWinController.m */,
+				F1DFFAF81734C76900652CFB /* popUp.xib */,
+				F1DFFAF0173421FD00652CFB /* DNAddPopUpController.h */,
+				F1DFFAF1173421FD00652CFB /* DNAddPopUpController.m */,
+				F1DFFADF173391A100652CFB /* DNMangaNotifyModel.h */,
+				F1DFFAE0173391A100652CFB /* DNMangaNotifyModel.m */,
+			);
+			path = MangaNotify;
+			sourceTree = "<group>";
+		};
+		F1DFFAC61733458D00652CFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1DFFAC71733458D00652CFB /* MangaNotify-Info.plist */,
+				F1DFFAC81733458D00652CFB /* InfoPlist.strings */,
+				F1DFFACB1733458D00652CFB /* main.m */,
+				F1DFFACD1733458D00652CFB /* MangaNotify-Prefix.pch */,
+				F1DFFACE1733458D00652CFB /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			path = MangaNotify;
+			sourceTree = "<group>";
+		};
+		F1DFFADC17338C2700652CFB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F17480CB1737AF0100D45919 /* menuIcon.png */,
+				F17480CC1737AF0100D45919 /* menuIcon@2x.png */,
+				F17480CD1737AF0100D45919 /* menuIconInvert.png */,
+				F17480CE1737AF0100D45919 /* menuIconInvert@2x.png */,
+				F14DBCB9173796320068DCA4 /* icon.icns */,
+				F116B6C11783FB74008EDD1D /* demo.png */,
+			);
+			name = Resources;
+			path = MangaNotify;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1DFFABB1733458D00652CFB /* MangaNotify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1DFFAD91733458D00652CFB /* Build configuration list for PBXNativeTarget "MangaNotify" */;
+			buildPhases = (
+				F1DFFAB81733458D00652CFB /* Sources */,
+				F1DFFAB91733458D00652CFB /* Frameworks */,
+				F1DFFABA1733458D00652CFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MangaNotify;
+			productName = MangaNotify;
+			productReference = F1DFFABC1733458D00652CFB /* MangaNotify.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1DFFAB41733458D00652CFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DN;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Dovizu Network";
+			};
+			buildConfigurationList = F1DFFAB71733458D00652CFB /* Build configuration list for PBXProject "MangaNotify" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F1DFFAB31733458D00652CFB;
+			productRefGroup = F1DFFABD1733458D00652CFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1DFFABB1733458D00652CFB /* MangaNotify */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1DFFABA1733458D00652CFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1DFFACA1733458D00652CFB /* InfoPlist.strings in Resources */,
+				F1DFFAD01733458D00652CFB /* Credits.rtf in Resources */,
+				F1DFFAD61733458D00652CFB /* MainMenu.xib in Resources */,
+				F1DFFAF71734C70500652CFB /* prefView.xib in Resources */,
+				F1DFFAF91734C76900652CFB /* popUp.xib in Resources */,
+				F14DBCBA173796320068DCA4 /* icon.icns in Resources */,
+				F17480CF1737AF0100D45919 /* menuIcon.png in Resources */,
+				F17480D01737AF0100D45919 /* menuIcon@2x.png in Resources */,
+				F17480D11737AF0100D45919 /* menuIconInvert.png in Resources */,
+				F17480D21737AF0100D45919 /* menuIconInvert@2x.png in Resources */,
+				F116B6C21783FB74008EDD1D /* demo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1DFFAB81733458D00652CFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1DFFACC1733458D00652CFB /* main.m in Sources */,
+				F1DFFAD31733458D00652CFB /* DNAppDelegate.m in Sources */,
+				F1DFFAE1173391A200652CFB /* DNMangaNotifyModel.m in Sources */,
+				F1DFFAF2173421FD00652CFB /* DNAddPopUpController.m in Sources */,
+				F1DFFAFC1734CC0F00652CFB /* DNPreViewWinController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F1DFFAC81733458D00652CFB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1DFFAC91733458D00652CFB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F1DFFACE1733458D00652CFB /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1DFFACF1733458D00652CFB /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F1DFFAD41733458D00652CFB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1DFFAD51733458D00652CFB /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1DFFAD71733458D00652CFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F1DFFAD81733458D00652CFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F1DFFADA1733458D00652CFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MangaNotify/MangaNotify-Prefix.pch";
+				INFOPLIST_FILE = "MangaNotify/MangaNotify-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F1DFFADB1733458D00652CFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MangaNotify/MangaNotify-Prefix.pch";
+				INFOPLIST_FILE = "MangaNotify/MangaNotify-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1DFFAB71733458D00652CFB /* Build configuration list for PBXProject "MangaNotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1DFFAD71733458D00652CFB /* Debug */,
+				F1DFFAD81733458D00652CFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1DFFAD91733458D00652CFB /* Build configuration list for PBXNativeTarget "MangaNotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1DFFADA1733458D00652CFB /* Debug */,
+				F1DFFADB1733458D00652CFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1DFFAB41733458D00652CFB /* Project object */;
+}
